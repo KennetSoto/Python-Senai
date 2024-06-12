@@ -2,6 +2,11 @@ import pyautogui as auto
 import os
 import time
 
+#no terminal use o comando:  cxfreeze main.py --target-dir (nome da pasta onde vai baixar) ese comando baixa o executável junto com quaisquer bibliotecas Python que seu script dependa.
+# os “arquivos baixados” seriam o executável criado a partir do seu script Python e quaisquer bibliotecas dependentes. 
+# Isso permite que você distribua seu programa Python para pessoas que não têm o Python instalado em seus computadores.
+
+
 auto.PAUSE = 0.5
 
 # abrir gitbash
