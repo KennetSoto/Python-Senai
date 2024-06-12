@@ -64,6 +64,6 @@ time.sleep(14)
 auto.write('$repo')
 auto.press('enter')
 
-#digita o endereço do repositorio
+#envia para o repositorio remoto
 auto.write('git push -u origin main')
 auto.press('enter')
